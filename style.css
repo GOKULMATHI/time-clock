@@ -1,0 +1,76 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(46, 151, 151);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#toggleButton{
+    width: fit-content;
+    height: fit-content;
+    font-size: xx-large;
+    margin-top: 5vh;
+}
+
+#clock-container{
+    width: 100vw;
+    height: 80vh;
+    margin-top: 10vh;
+    align-content: center;
+}
+
+#clock{
+    width: 50ex;
+    height: 50ex;
+    margin: 0 auto;
+    background-color: rgb(88, 88, 70);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#clock #keys{
+    width: fit-content;
+    height: fit-content;
+    display: inline-flex;
+    flex-direction: column-reverse;
+}
+
+#clock .cntr{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    margin: auto 0;
+}
+
+#clock .sec{
+    width: 10px;
+    height: 22ex;
+    background-color: black;
+    position: absolute;
+    border-radius: 40%;
+}   
+
+#time{
+    text-align: center;
+    margin: 2vh auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: aqua;
+    font-size: xxx-large;
+}
+
+#date{
+    text-align: center;
+    margin: 2vh auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: xx-large;
+    background-color: blueviolet;
+}   
+
